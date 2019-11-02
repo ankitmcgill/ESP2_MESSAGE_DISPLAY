@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name displays)(type KiCad)(uri /media/ankit/mydev/software/kicad_libs_collection/displays)(options "")(descr ""))
+  (lib (name nomadic_logo)(type KiCad)(uri /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/board/lib_fb.pretty)(options "")(descr ""))
+)
