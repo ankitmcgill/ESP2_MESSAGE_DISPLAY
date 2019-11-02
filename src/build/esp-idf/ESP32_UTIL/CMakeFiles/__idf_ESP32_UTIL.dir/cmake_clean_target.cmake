@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libESP32_UTIL.a"
+)

@@ -1,0 +1,2 @@
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libxtensa.a  CMakeFiles/__idf_xtensa.dir/debug_helpers.c.obj CMakeFiles/__idf_xtensa.dir/debug_helpers_asm.S.obj CMakeFiles/__idf_xtensa.dir/eri.c.obj CMakeFiles/__idf_xtensa.dir/trax.c.obj
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libxtensa.a
