@@ -56,11 +56,11 @@ include CMakeFiles/gen_project_binary.dir/progress.make
 CMakeFiles/gen_project_binary: .bin_timestamp
 
 
-.bin_timestamp: elts-india-target.elf
+.bin_timestamp: esp32-message-display.elf
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
-	/media/ankit/mydev/toolchains/esp32/idf-tools/python_env/idf4.1_py2.7_env/bin/python /media/ankit/mydev/toolchains/esp32/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode dio --flash_freq 40m --flash_size 4MB --elf-sha256-offset 0xb0 -o /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/elts-india-target.bin elts-india-target.elf
-	/usr/bin/cmake -E echo "Generated /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/elts-india-target.bin"
-	/usr/bin/cmake -E md5sum /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/elts-india-target.bin > /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/.bin_timestamp
+	/media/ankit/mydev/toolchains/esp32/idf-tools/python_env/idf4.1_py2.7_env/bin/python /media/ankit/mydev/toolchains/esp32/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode dio --flash_freq 40m --flash_size 4MB --elf-sha256-offset 0xb0 -o /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp32-message-display.bin esp32-message-display.elf
+	/usr/bin/cmake -E echo "Generated /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp32-message-display.bin"
+	/usr/bin/cmake -E md5sum /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp32-message-display.bin > /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/.bin_timestamp
 
 gen_project_binary: CMakeFiles/gen_project_binary
 gen_project_binary: .bin_timestamp

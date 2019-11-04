@@ -50,6 +50,9 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/media/ankit/mydev/toolchains/esp32/esp-idf/components/mbedtls/port/include"
   "/media/ankit/mydev/toolchains/esp32/esp-idf/components/mbedtls/mbedtls/include"
   "../components/internal/internal_wifi/include"
+  "../components/external/external_led/include"
+  "../components/external/external_lcd/include"
+  "../components/external/external_button/include"
   "../components/util/ESP32_UTIL/include"
   )
 
@@ -67,6 +70,9 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/esp32/CMakeFiles/__idf_esp32.dir/DependInfo.cmake"
   "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/internal_flash/CMakeFiles/__idf_internal_flash.dir/DependInfo.cmake"
   "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/internal_wifi/CMakeFiles/__idf_internal_wifi.dir/DependInfo.cmake"
+  "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/external_led/CMakeFiles/__idf_external_led.dir/DependInfo.cmake"
+  "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/external_lcd/CMakeFiles/__idf_external_lcd.dir/DependInfo.cmake"
+  "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/external_button/CMakeFiles/__idf_external_button.dir/DependInfo.cmake"
   "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/ESP32_UTIL/CMakeFiles/__idf_ESP32_UTIL.dir/DependInfo.cmake"
   "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/global/CMakeFiles/__idf_global.dir/DependInfo.cmake"
   "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/vfs/CMakeFiles/__idf_vfs.dir/DependInfo.cmake"

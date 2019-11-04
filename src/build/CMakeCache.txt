@@ -150,7 +150,7 @@ CMAKE_OBJCOPY:FILEPATH=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtens
 CMAKE_OBJDUMP:FILEPATH=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=elts-india-target
+CMAKE_PROJECT_NAME:STATIC=esp32-message-display
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib
@@ -337,6 +337,15 @@ __idf_espcoredump_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;gene
 __idf_expat_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_soc;general;__idf_esp_rom;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
 
 //Dependencies for the target
+__idf_external_button_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_soc;general;__idf_esp_rom;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
+
+//Dependencies for the target
+__idf_external_lcd_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_soc;general;__idf_esp_rom;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
+
+//Dependencies for the target
+__idf_external_led_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_soc;general;__idf_esp_rom;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
+
+//Dependencies for the target
 __idf_fatfs_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_soc;general;__idf_esp_rom;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
 
 //Dependencies for the target
@@ -442,16 +451,16 @@ __idf_wpa_supplicant_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;g
 __idf_xtensa_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_soc;general;__idf_esp_rom;general;__idf_esp_common;general;__idf_esp32;general;/media/ankit/mydev/toolchains/esp32/esp-idf/components/xtensa/esp32/libhal.a;
 
 //Value Computed by CMake
-elts-india-target_BINARY_DIR:STATIC=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build
-
-//Value Computed by CMake
-elts-india-target_SOURCE_DIR:STATIC=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src
-
-//Value Computed by CMake
 esp-idf_BINARY_DIR:STATIC=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf
 
 //Value Computed by CMake
 esp-idf_SOURCE_DIR:STATIC=/media/ankit/mydev/toolchains/esp32/esp-idf
+
+//Value Computed by CMake
+esp32-message-display_BINARY_DIR:STATIC=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build
+
+//Value Computed by CMake
+esp32-message-display_SOURCE_DIR:STATIC=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src
 
 //Value Computed by CMake
 mbed TLS_BINARY_DIR:STATIC=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/mbedtls/mbedtls
@@ -576,7 +585,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=76
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=79
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

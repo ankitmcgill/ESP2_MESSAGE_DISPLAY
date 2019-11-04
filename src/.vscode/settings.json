@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.proto": "proto",
+        "bsp.h": "c"
+    }
+}

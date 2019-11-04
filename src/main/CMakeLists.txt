@@ -7,5 +7,8 @@ idf_component_register(SRCS
                         REQUIRES
                             internal_flash
                             internal_wifi
+                            external_led
+                            external_lcd
+                            external_button
                             ESP32_UTIL
                         ) 

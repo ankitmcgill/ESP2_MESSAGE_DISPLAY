@@ -53,8 +53,8 @@ CMAKE_BINARY_DIR = /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build
 # Include the progress variables for this target.
 include CMakeFiles/size.dir/progress.make
 
-CMakeFiles/size: elts-india-target.elf
-	/media/ankit/mydev/toolchains/esp32/idf-tools/python_env/idf4.1_py2.7_env/bin/python /media/ankit/mydev/toolchains/esp32/esp-idf/tools/idf_size.py /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/elts-india-target.map
+CMakeFiles/size: esp32-message-display.elf
+	/media/ankit/mydev/toolchains/esp32/idf-tools/python_env/idf4.1_py2.7_env/bin/python /media/ankit/mydev/toolchains/esp32/esp-idf/tools/idf_size.py /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp32-message-display.map
 
 size: CMakeFiles/size
 size: CMakeFiles/size.dir/build.make

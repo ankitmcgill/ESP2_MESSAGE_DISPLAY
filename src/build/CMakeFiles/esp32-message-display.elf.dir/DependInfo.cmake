@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/project_elf_src.c" "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles/elts-india-target.elf.dir/project_elf_src.c.obj"
+  "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/project_elf_src.c" "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles/esp32-message-display.elf.dir/project_elf_src.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -104,9 +104,12 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../components/internal/internal_flash/include"
   "../components/global/include"
   "../components/internal/internal_wifi/include"
+  "../components/bsp"
+  "../components/external/external_led/include"
+  "../components/external/external_lcd/include"
+  "../components/external/external_button/include"
   "../components/util/ESP32_UTIL/include"
   "../main"
-  "../components/bsp"
   )
 
 # Targets to which this target links.
@@ -172,6 +175,9 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/internal_flash/CMakeFiles/__idf_internal_flash.dir/DependInfo.cmake"
   "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/global/CMakeFiles/__idf_global.dir/DependInfo.cmake"
   "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/internal_wifi/CMakeFiles/__idf_internal_wifi.dir/DependInfo.cmake"
+  "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/external_led/CMakeFiles/__idf_external_led.dir/DependInfo.cmake"
+  "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/external_lcd/CMakeFiles/__idf_external_lcd.dir/DependInfo.cmake"
+  "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/external_button/CMakeFiles/__idf_external_button.dir/DependInfo.cmake"
   "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/ESP32_UTIL/CMakeFiles/__idf_ESP32_UTIL.dir/DependInfo.cmake"
   "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/main/CMakeFiles/__idf_main.dir/DependInfo.cmake"
   "/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/DependInfo.cmake"

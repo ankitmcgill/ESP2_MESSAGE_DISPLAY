@@ -6,15 +6,18 @@ cmake_minimum_required(VERSION 3.5)
 set(EXTRA_COMPONENT_DIRS 
                     # Specific Coponents
                     "./components/bsp"
-                    #"./components/external/external_button"
-                    #"./components/external/external_lcd"
-                    #"./components/external/external_led"
+                    "./components/external/external_led"
+                    "./components/external/external_lcd"
+                    "./components/external/external_button"
                     "./components/internal/internal_flash"
-                    #"./components/internal/internal_time"
-                    #"./components/internal/internal_webserver"
                     "./components/internal/internal_wifi"
                     "./components/util/ESP32_UTIL"
                     )
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(elts-india-target)
+project(esp32-message-display)
+
+#"./components/external/external_button"
+
+#"./components/internal/internal_time"
+#"./components/internal/internal_webserver"

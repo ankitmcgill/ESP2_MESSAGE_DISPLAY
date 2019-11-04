@@ -59,5 +59,8 @@ $<TARGET_FILE:__idf_wifi_provisioning>
 $<TARGET_FILE:__idf_internal_flash>
 $<TARGET_FILE:__idf_global>
 $<TARGET_FILE:__idf_internal_wifi>
+$<TARGET_FILE:__idf_external_led>
+$<TARGET_FILE:__idf_external_lcd>
+$<TARGET_FILE:__idf_external_button>
 $<TARGET_FILE:__idf_ESP32_UTIL>
 $<TARGET_FILE:__idf_main>

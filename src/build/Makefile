@@ -78,17 +78,6 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -99,6 +88,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
@@ -157,17 +157,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named elts-india-target.elf
+# Target rules for targets named esp32-message-display.elf
 
 # Build rule for target.
-elts-india-target.elf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 elts-india-target.elf
-.PHONY : elts-india-target.elf
+esp32-message-display.elf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 esp32-message-display.elf
+.PHONY : esp32-message-display.elf
 
 # fast build rule for target.
-elts-india-target.elf/fast:
-	$(MAKE) -f CMakeFiles/elts-india-target.elf.dir/build.make CMakeFiles/elts-india-target.elf.dir/build
-.PHONY : elts-india-target.elf/fast
+esp32-message-display.elf/fast:
+	$(MAKE) -f CMakeFiles/esp32-message-display.elf.dir/build.make CMakeFiles/esp32-message-display.elf.dir/build
+.PHONY : esp32-message-display.elf/fast
 
 #=============================================================================
 # Target rules for targets named flash
@@ -181,6 +181,45 @@ flash: cmake_check_build_system
 flash/fast:
 	$(MAKE) -f CMakeFiles/flash.dir/build.make CMakeFiles/flash.dir/build
 .PHONY : flash/fast
+
+#=============================================================================
+# Target rules for targets named app
+
+# Build rule for target.
+app: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 app
+.PHONY : app
+
+# fast build rule for target.
+app/fast:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
+.PHONY : app/fast
+
+#=============================================================================
+# Target rules for targets named gen_project_binary
+
+# Build rule for target.
+gen_project_binary: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gen_project_binary
+.PHONY : gen_project_binary
+
+# fast build rule for target.
+gen_project_binary/fast:
+	$(MAKE) -f CMakeFiles/gen_project_binary.dir/build.make CMakeFiles/gen_project_binary.dir/build
+.PHONY : gen_project_binary/fast
+
+#=============================================================================
+# Target rules for targets named bootloader
+
+# Build rule for target.
+bootloader: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bootloader
+.PHONY : bootloader
+
+# fast build rule for target.
+bootloader/fast:
+	$(MAKE) -f CMakeFiles/bootloader.dir/build.make CMakeFiles/bootloader.dir/build
+.PHONY : bootloader/fast
 
 #=============================================================================
 # Target rules for targets named ___idf_heap
@@ -246,6 +285,19 @@ ___idf_esp_ringbuf: cmake_check_build_system
 ___idf_esp_ringbuf/fast:
 	$(MAKE) -f CMakeFiles/___idf_esp_ringbuf.dir/build.make CMakeFiles/___idf_esp_ringbuf.dir/build
 .PHONY : ___idf_esp_ringbuf/fast
+
+#=============================================================================
+# Target rules for targets named ___idf_external_lcd
+
+# Build rule for target.
+___idf_external_lcd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ___idf_external_lcd
+.PHONY : ___idf_external_lcd
+
+# fast build rule for target.
+___idf_external_lcd/fast:
+	$(MAKE) -f CMakeFiles/___idf_external_lcd.dir/build.make CMakeFiles/___idf_external_lcd.dir/build
+.PHONY : ___idf_external_lcd/fast
 
 #=============================================================================
 # Target rules for targets named ___idf_spi_flash
@@ -625,19 +677,6 @@ ___idf_esp_https_server/fast:
 .PHONY : ___idf_esp_https_server/fast
 
 #=============================================================================
-# Target rules for targets named app
-
-# Build rule for target.
-app: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 app
-.PHONY : app
-
-# fast build rule for target.
-app/fast:
-	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
-.PHONY : app/fast
-
-#=============================================================================
 # Target rules for targets named ___idf_esp-tls
 
 # Build rule for target.
@@ -768,6 +807,19 @@ ___idf_app_update/fast:
 .PHONY : ___idf_app_update/fast
 
 #=============================================================================
+# Target rules for targets named ___idf_external_button
+
+# Build rule for target.
+___idf_external_button: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ___idf_external_button
+.PHONY : ___idf_external_button
+
+# fast build rule for target.
+___idf_external_button/fast:
+	$(MAKE) -f CMakeFiles/___idf_external_button.dir/build.make CMakeFiles/___idf_external_button.dir/build
+.PHONY : ___idf_external_button/fast
+
+#=============================================================================
 # Target rules for targets named ___idf_esp_adc_cal
 
 # Build rule for target.
@@ -831,6 +883,19 @@ ___idf_nghttp: cmake_check_build_system
 ___idf_nghttp/fast:
 	$(MAKE) -f CMakeFiles/___idf_nghttp.dir/build.make CMakeFiles/___idf_nghttp.dir/build
 .PHONY : ___idf_nghttp/fast
+
+#=============================================================================
+# Target rules for targets named ___idf_external_led
+
+# Build rule for target.
+___idf_external_led: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ___idf_external_led
+.PHONY : ___idf_external_led
+
+# fast build rule for target.
+___idf_external_led/fast:
+	$(MAKE) -f CMakeFiles/___idf_external_led.dir/build.make CMakeFiles/___idf_external_led.dir/build
+.PHONY : ___idf_external_led/fast
 
 #=============================================================================
 # Target rules for targets named ___idf_jsmn
@@ -1013,19 +1078,6 @@ ___idf_mdns: cmake_check_build_system
 ___idf_mdns/fast:
 	$(MAKE) -f CMakeFiles/___idf_mdns.dir/build.make CMakeFiles/___idf_mdns.dir/build
 .PHONY : ___idf_mdns/fast
-
-#=============================================================================
-# Target rules for targets named bootloader
-
-# Build rule for target.
-bootloader: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bootloader
-.PHONY : bootloader
-
-# fast build rule for target.
-bootloader/fast:
-	$(MAKE) -f CMakeFiles/bootloader.dir/build.make CMakeFiles/bootloader.dir/build
-.PHONY : bootloader/fast
 
 #=============================================================================
 # Target rules for targets named ___idf_openssl
@@ -1247,19 +1299,6 @@ ___idf_ESP32_UTIL: cmake_check_build_system
 ___idf_ESP32_UTIL/fast:
 	$(MAKE) -f CMakeFiles/___idf_ESP32_UTIL.dir/build.make CMakeFiles/___idf_ESP32_UTIL.dir/build
 .PHONY : ___idf_ESP32_UTIL/fast
-
-#=============================================================================
-# Target rules for targets named gen_project_binary
-
-# Build rule for target.
-gen_project_binary: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gen_project_binary
-.PHONY : gen_project_binary
-
-# fast build rule for target.
-gen_project_binary/fast:
-	$(MAKE) -f CMakeFiles/gen_project_binary.dir/build.make CMakeFiles/gen_project_binary.dir/build
-.PHONY : gen_project_binary/fast
 
 #=============================================================================
 # Target rules for targets named __idf_esp_ringbuf
@@ -2224,6 +2263,45 @@ __idf_internal_wifi/fast:
 .PHONY : __idf_internal_wifi/fast
 
 #=============================================================================
+# Target rules for targets named __idf_external_led
+
+# Build rule for target.
+__idf_external_led: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 __idf_external_led
+.PHONY : __idf_external_led
+
+# fast build rule for target.
+__idf_external_led/fast:
+	$(MAKE) -f esp-idf/external_led/CMakeFiles/__idf_external_led.dir/build.make esp-idf/external_led/CMakeFiles/__idf_external_led.dir/build
+.PHONY : __idf_external_led/fast
+
+#=============================================================================
+# Target rules for targets named __idf_external_lcd
+
+# Build rule for target.
+__idf_external_lcd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 __idf_external_lcd
+.PHONY : __idf_external_lcd
+
+# fast build rule for target.
+__idf_external_lcd/fast:
+	$(MAKE) -f esp-idf/external_lcd/CMakeFiles/__idf_external_lcd.dir/build.make esp-idf/external_lcd/CMakeFiles/__idf_external_lcd.dir/build
+.PHONY : __idf_external_lcd/fast
+
+#=============================================================================
+# Target rules for targets named __idf_external_button
+
+# Build rule for target.
+__idf_external_button: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 __idf_external_button
+.PHONY : __idf_external_button
+
+# fast build rule for target.
+__idf_external_button/fast:
+	$(MAKE) -f esp-idf/external_button/CMakeFiles/__idf_external_button.dir/build.make esp-idf/external_button/CMakeFiles/__idf_external_button.dir/build
+.PHONY : __idf_external_button/fast
+
+#=============================================================================
 # Target rules for targets named __idf_ESP32_UTIL
 
 # Build rule for target.
@@ -2255,7 +2333,7 @@ project_elf_src.obj: project_elf_src.c.obj
 
 # target to build an object file
 project_elf_src.c.obj:
-	$(MAKE) -f CMakeFiles/elts-india-target.elf.dir/build.make CMakeFiles/elts-india-target.elf.dir/project_elf_src.c.obj
+	$(MAKE) -f CMakeFiles/esp32-message-display.elf.dir/build.make CMakeFiles/esp32-message-display.elf.dir/project_elf_src.c.obj
 .PHONY : project_elf_src.c.obj
 
 project_elf_src.i: project_elf_src.c.i
@@ -2264,7 +2342,7 @@ project_elf_src.i: project_elf_src.c.i
 
 # target to preprocess a source file
 project_elf_src.c.i:
-	$(MAKE) -f CMakeFiles/elts-india-target.elf.dir/build.make CMakeFiles/elts-india-target.elf.dir/project_elf_src.c.i
+	$(MAKE) -f CMakeFiles/esp32-message-display.elf.dir/build.make CMakeFiles/esp32-message-display.elf.dir/project_elf_src.c.i
 .PHONY : project_elf_src.c.i
 
 project_elf_src.s: project_elf_src.c.s
@@ -2273,7 +2351,7 @@ project_elf_src.s: project_elf_src.c.s
 
 # target to generate assembly for a file
 project_elf_src.c.s:
-	$(MAKE) -f CMakeFiles/elts-india-target.elf.dir/build.make CMakeFiles/elts-india-target.elf.dir/project_elf_src.c.s
+	$(MAKE) -f CMakeFiles/esp32-message-display.elf.dir/build.make CMakeFiles/esp32-message-display.elf.dir/project_elf_src.c.s
 .PHONY : project_elf_src.c.s
 
 # Help Target
@@ -2284,16 +2362,20 @@ help:
 	@echo "... depend"
 	@echo "... install/local"
 	@echo "... list_install_components"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... elts-india-target.elf"
+	@echo "... edit_cache"
+	@echo "... esp32-message-display.elf"
 	@echo "... flash"
+	@echo "... app"
+	@echo "... gen_project_binary"
+	@echo "... bootloader"
 	@echo "... install/strip"
 	@echo "... ___idf_heap"
 	@echo "... ___idf_fatfs"
 	@echo "... ___idf_expat"
 	@echo "... ___idf_cbor"
 	@echo "... ___idf_esp_ringbuf"
+	@echo "... ___idf_external_lcd"
 	@echo "... ___idf_spi_flash"
 	@echo "... ___idf_esp_https_ota"
 	@echo "... ___idf_esp_wifi"
@@ -2323,7 +2405,6 @@ help:
 	@echo "... ___idf_cxx"
 	@echo "... confserver"
 	@echo "... ___idf_esp_https_server"
-	@echo "... app"
 	@echo "... ___idf_esp-tls"
 	@echo "... ___idf_efuse"
 	@echo "... ___idf_espcoredump"
@@ -2334,11 +2415,13 @@ help:
 	@echo "... ___idf_newlib"
 	@echo "... ___idf_wear_levelling"
 	@echo "... ___idf_app_update"
+	@echo "... ___idf_external_button"
 	@echo "... ___idf_esp_adc_cal"
 	@echo "... ___idf_esp_rom"
 	@echo "... ___idf_internal_wifi"
 	@echo "... ___idf_idf_test"
 	@echo "... ___idf_nghttp"
+	@echo "... ___idf_external_led"
 	@echo "... ___idf_jsmn"
 	@echo "... size-components"
 	@echo "... ___idf_spiffs"
@@ -2354,7 +2437,6 @@ help:
 	@echo "... ___idf_protobuf-c"
 	@echo "... ___idf_internal_flash"
 	@echo "... ___idf_mdns"
-	@echo "... bootloader"
 	@echo "... ___idf_openssl"
 	@echo "... ___idf_esp_local_ctrl"
 	@echo "... ___idf_main"
@@ -2372,7 +2454,6 @@ help:
 	@echo "... ___idf_xtensa"
 	@echo "... ___idf_global"
 	@echo "... ___idf_ESP32_UTIL"
-	@echo "... gen_project_binary"
 	@echo "... __idf_esp_ringbuf"
 	@echo "... __idf_driver"
 	@echo "... apidoc"
@@ -2447,6 +2528,9 @@ help:
 	@echo "... __idf_internal_flash"
 	@echo "... __idf_global"
 	@echo "... __idf_internal_wifi"
+	@echo "... __idf_external_led"
+	@echo "... __idf_external_lcd"
+	@echo "... __idf_external_button"
 	@echo "... __idf_ESP32_UTIL"
 	@echo "... __idf_main"
 	@echo "... project_elf_src.obj"

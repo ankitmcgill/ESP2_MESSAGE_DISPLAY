@@ -1,0 +1,2 @@
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libexternal_button.a  CMakeFiles/__idf_external_button.dir/external_button.c.obj
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libexternal_button.a

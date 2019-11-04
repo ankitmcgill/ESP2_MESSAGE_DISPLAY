@@ -4,16 +4,16 @@ file(REMOVE_RECURSE
   "bootloader/bootloader.elf"
   "bootloader/bootloader.bin"
   "bootloader/bootloader.map"
-  "elts-india-target.bin"
-  "elts-india-target.map"
+  "esp32-message-display.bin"
+  "esp32-message-display.map"
   "project_elf_src.c"
   "project_elf_src.c"
-  "CMakeFiles/elts-india-target.elf.dir/project_elf_src.c.obj"
-  "elts-india-target.elf.pdb"
-  "elts-india-target.elf"
+  "CMakeFiles/esp32-message-display.elf.dir/project_elf_src.c.obj"
+  "esp32-message-display.elf.pdb"
+  "esp32-message-display.elf"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang C)
-  include(CMakeFiles/elts-india-target.elf.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/esp32-message-display.elf.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

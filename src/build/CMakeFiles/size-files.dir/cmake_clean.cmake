@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "bootloader/bootloader.elf"
   "bootloader/bootloader.bin"
   "bootloader/bootloader.map"
-  "elts-india-target.bin"
-  "elts-india-target.map"
+  "esp32-message-display.bin"
+  "esp32-message-display.map"
   "project_elf_src.c"
   "CMakeFiles/size-files"
 )

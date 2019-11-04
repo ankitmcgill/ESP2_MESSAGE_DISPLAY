@@ -12,8 +12,8 @@
 #define _BSP_
 
 #define BSP_LED_RED                 (27)
-#define BSP_LED_GREEN               (32)
-#define BSP_LED_BLUE                (33)
+#define BSP_LED_GREEN               (33)
+#define BSP_LED_BLUE                (32)
 
 #define BSP_BUTTON_SCROLL           (25)
 #define BSP_BUTTON_ACK              (26)

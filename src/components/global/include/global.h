@@ -16,6 +16,7 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <stdbool.h>
+
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "freertos/queue.h"
@@ -24,6 +25,7 @@
 
 //Task Priorities
 #define TASK_PRIORITY_INTERNAL_WIFI             (7)
+#define TASK_PRIORITY_EXTERNAL_LED              (7)
 
 //General
 extern EventGroupHandle_t CONNECTION_STATUS_EVENTGROUP_HANDLE;

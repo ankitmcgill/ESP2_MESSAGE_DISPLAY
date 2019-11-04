@@ -102,9 +102,12 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/internal_flash/cmake_install.cmake")
   include("/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/global/cmake_install.cmake")
   include("/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/internal_wifi/cmake_install.cmake")
+  include("/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/bsp/cmake_install.cmake")
+  include("/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/external_led/cmake_install.cmake")
+  include("/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/external_lcd/cmake_install.cmake")
+  include("/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/external_button/cmake_install.cmake")
   include("/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/ESP32_UTIL/cmake_install.cmake")
   include("/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/main/cmake_install.cmake")
-  include("/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/bsp/cmake_install.cmake")
 
 endif()
 

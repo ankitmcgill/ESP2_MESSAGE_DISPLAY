@@ -134,6 +134,9 @@ esp-idf/esp32/ld/esp32.project.ld: esp-idf/wifi_provisioning/libwifi_provisionin
 esp-idf/esp32/ld/esp32.project.ld: esp-idf/internal_flash/libinternal_flash.a
 esp-idf/esp32/ld/esp32.project.ld: esp-idf/global/libglobal.a
 esp-idf/esp32/ld/esp32.project.ld: esp-idf/internal_wifi/libinternal_wifi.a
+esp-idf/esp32/ld/esp32.project.ld: esp-idf/external_led/libexternal_led.a
+esp-idf/esp32/ld/esp32.project.ld: esp-idf/external_lcd/libexternal_lcd.a
+esp-idf/esp32/ld/esp32.project.ld: esp-idf/external_button/libexternal_button.a
 esp-idf/esp32/ld/esp32.project.ld: esp-idf/ESP32_UTIL/libESP32_UTIL.a
 esp-idf/esp32/ld/esp32.project.ld: esp-idf/main/libmain.a
 esp-idf/esp32/ld/esp32.project.ld: /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/sdkconfig
