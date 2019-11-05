@@ -36,6 +36,4 @@ void EXTERNAL_LCD_PutStringLeftInLine(char* str, uint8_t line_num);
 void EXTERNAL_LCD_PutStringRightInLine(char* str, uint8_t line_num);
 void EXTERNAL_LCD_PutStringCenteredInLine(char* str, uint8_t line_num);
 
-uint8_t EXTERNAL_LCD_DisplayUserMessage(char* message);
-
 #endif
