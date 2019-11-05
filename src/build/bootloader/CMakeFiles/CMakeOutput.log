@@ -35,15 +35,15 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_01524/fast"
+Run Build Command:"/usr/bin/make" "cmTC_71a58/fast"
 make[3]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_01524.dir/build.make CMakeFiles/cmTC_01524.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_71a58.dir/build.make CMakeFiles/cmTC_71a58.dir/build
 make[4]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_01524.dir/testCCompiler.c.obj
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_01524.dir/testCCompiler.c.obj   -c /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_01524
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01524.dir/link.txt --verbose=1
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_01524.dir/testCCompiler.c.obj  -o cmTC_01524 
+Building C object CMakeFiles/cmTC_71a58.dir/testCCompiler.c.obj
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_71a58.dir/testCCompiler.c.obj   -c /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_71a58
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71a58.dir/link.txt --verbose=1
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_71a58.dir/testCCompiler.c.obj  -o cmTC_71a58 
 /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
 make[4]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
 make[3]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
@@ -52,15 +52,15 @@ make[3]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d7644/fast"
+Run Build Command:"/usr/bin/make" "cmTC_c0d93/fast"
 make[3]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_d7644.dir/build.make CMakeFiles/cmTC_d7644.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_c0d93.dir/build.make CMakeFiles/cmTC_c0d93.dir/build
 make[4]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d7644.dir/CMakeCCompilerABI.c.obj
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_d7644.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_d7644
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7644.dir/link.txt --verbose=1
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address   -nostdlib -v CMakeFiles/cmTC_d7644.dir/CMakeCCompilerABI.c.obj  -o cmTC_d7644 
+Building C object CMakeFiles/cmTC_c0d93.dir/CMakeCCompilerABI.c.obj
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_c0d93.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_c0d93
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0d93.dir/link.txt --verbose=1
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address   -nostdlib -v CMakeFiles/cmTC_c0d93.dir/CMakeCCompilerABI.c.obj  -o cmTC_c0d93 
 Using built-in specs.
 COLLECT_GCC=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
 COLLECT_LTO_WRAPPER=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper
@@ -70,10 +70,10 @@ Thread model: posix
 gcc version 8.2.0 (crosstool-NG esp32-2019r1) 
 COMPILER_PATH=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/:/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/:/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_d7644'
- /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgqoQAH.res -o cmTC_d7644 -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_d7644.dir/CMakeCCompilerABI.c.obj
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_c0d93'
+ /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfsEsR5.res -o cmTC_c0d93 -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_c0d93.dir/CMakeCCompilerABI.c.obj
 /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_d7644'
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_c0d93'
 make[4]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
 make[3]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
 
@@ -82,15 +82,15 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d7644/fast"]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c0d93/fast"]
   ignore line: [make[3]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d7644.dir/build.make CMakeFiles/cmTC_d7644.dir/build]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c0d93.dir/build.make CMakeFiles/cmTC_c0d93.dir/build]
   ignore line: [make[4]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_d7644.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_d7644.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_d7644]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7644.dir/link.txt --verbose=1]
-  ignore line: [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address   -nostdlib -v CMakeFiles/cmTC_d7644.dir/CMakeCCompilerABI.c.obj  -o cmTC_d7644 ]
+  ignore line: [Building C object CMakeFiles/cmTC_c0d93.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_c0d93.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_c0d93]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0d93.dir/link.txt --verbose=1]
+  ignore line: [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address   -nostdlib -v CMakeFiles/cmTC_c0d93.dir/CMakeCCompilerABI.c.obj  -o cmTC_c0d93 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper]
@@ -100,19 +100,19 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.2.0 (crosstool-NG esp32-2019r1) ]
   ignore line: [COMPILER_PATH=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/:/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/]
   ignore line: [LIBRARY_PATH=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/:/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_d7644']
-  link line: [ /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgqoQAH.res -o cmTC_d7644 -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_d7644.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_c0d93']
+  link line: [ /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfsEsR5.res -o cmTC_c0d93 -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_c0d93.dir/CMakeCCompilerABI.c.obj]
     arg [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccgqoQAH.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccfsEsR5.res] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d7644] ==> ignore
+    arg [cmTC_c0d93] ==> ignore
     arg [-L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> dir [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0]
     arg [-L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc]
     arg [-L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib]
-    arg [CMakeFiles/cmTC_d7644.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_c0d93.dir/CMakeCCompilerABI.c.obj] ==> ignore
   collapse library dir [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0]
   collapse library dir [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/lib/gcc]
   collapse library dir [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/lib]
@@ -126,15 +126,15 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b28d2/fast"
+Run Build Command:"/usr/bin/make" "cmTC_a80bd/fast"
 make[3]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_b28d2.dir/build.make CMakeFiles/cmTC_b28d2.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_a80bd.dir/build.make CMakeFiles/cmTC_a80bd.dir/build
 make[4]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b28d2.dir/feature_tests.c.obj
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -std=c11 -o CMakeFiles/cmTC_b28d2.dir/feature_tests.c.obj   -c /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b28d2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b28d2.dir/link.txt --verbose=1
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_b28d2.dir/feature_tests.c.obj  -o cmTC_b28d2 
+Building C object CMakeFiles/cmTC_a80bd.dir/feature_tests.c.obj
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -std=c11 -o CMakeFiles/cmTC_a80bd.dir/feature_tests.c.obj   -c /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a80bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a80bd.dir/link.txt --verbose=1
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_a80bd.dir/feature_tests.c.obj  -o cmTC_a80bd 
 /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
 make[4]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
 make[3]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
@@ -149,15 +149,15 @@ make[3]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_16253/fast"
+Run Build Command:"/usr/bin/make" "cmTC_0190b/fast"
 make[3]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_16253.dir/build.make CMakeFiles/cmTC_16253.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_0190b.dir/build.make CMakeFiles/cmTC_0190b.dir/build
 make[4]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_16253.dir/feature_tests.c.obj
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -std=c99 -o CMakeFiles/cmTC_16253.dir/feature_tests.c.obj   -c /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/feature_tests.c
-Linking C executable cmTC_16253
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16253.dir/link.txt --verbose=1
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_16253.dir/feature_tests.c.obj  -o cmTC_16253 
+Building C object CMakeFiles/cmTC_0190b.dir/feature_tests.c.obj
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -std=c99 -o CMakeFiles/cmTC_0190b.dir/feature_tests.c.obj   -c /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0190b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0190b.dir/link.txt --verbose=1
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_0190b.dir/feature_tests.c.obj  -o cmTC_0190b 
 /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
 make[4]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
 make[3]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
@@ -172,15 +172,15 @@ make[3]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_50020/fast"
+Run Build Command:"/usr/bin/make" "cmTC_19e48/fast"
 make[3]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_50020.dir/build.make CMakeFiles/cmTC_50020.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_19e48.dir/build.make CMakeFiles/cmTC_19e48.dir/build
 make[4]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_50020.dir/feature_tests.c.obj
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -std=c90 -o CMakeFiles/cmTC_50020.dir/feature_tests.c.obj   -c /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/feature_tests.c
-Linking C executable cmTC_50020
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50020.dir/link.txt --verbose=1
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_50020.dir/feature_tests.c.obj  -o cmTC_50020 
+Building C object CMakeFiles/cmTC_19e48.dir/feature_tests.c.obj
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -std=c90 -o CMakeFiles/cmTC_19e48.dir/feature_tests.c.obj   -c /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/feature_tests.c
+Linking C executable cmTC_19e48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19e48.dir/link.txt --verbose=1
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_19e48.dir/feature_tests.c.obj  -o cmTC_19e48 
 /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
 make[4]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
 make[3]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
@@ -193,15 +193,15 @@ make[3]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_41d33/fast"
+Run Build Command:"/usr/bin/make" "cmTC_063fd/fast"
 make[3]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_41d33.dir/build.make CMakeFiles/cmTC_41d33.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_063fd.dir/build.make CMakeFiles/cmTC_063fd.dir/build
 make[4]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_41d33.dir/testCXXCompiler.cxx.obj
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_41d33.dir/testCXXCompiler.cxx.obj -c /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_41d33
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41d33.dir/link.txt --verbose=1
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_41d33.dir/testCXXCompiler.cxx.obj  -o cmTC_41d33 
+Building CXX object CMakeFiles/cmTC_063fd.dir/testCXXCompiler.cxx.obj
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_063fd.dir/testCXXCompiler.cxx.obj -c /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_063fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_063fd.dir/link.txt --verbose=1
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_063fd.dir/testCXXCompiler.cxx.obj  -o cmTC_063fd 
 /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
 make[4]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
 make[3]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
@@ -210,15 +210,15 @@ make[3]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_126e8/fast"
+Run Build Command:"/usr/bin/make" "cmTC_a81c5/fast"
 make[3]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_126e8.dir/build.make CMakeFiles/cmTC_126e8.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_a81c5.dir/build.make CMakeFiles/cmTC_a81c5.dir/build
 make[4]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_126e8.dir/CMakeCXXCompilerABI.cpp.obj
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_126e8.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_126e8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_126e8.dir/link.txt --verbose=1
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls -Wno-frame-address   -nostdlib -v CMakeFiles/cmTC_126e8.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_126e8 
+Building CXX object CMakeFiles/cmTC_a81c5.dir/CMakeCXXCompilerABI.cpp.obj
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_a81c5.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a81c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a81c5.dir/link.txt --verbose=1
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls -Wno-frame-address   -nostdlib -v CMakeFiles/cmTC_a81c5.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_a81c5 
 Using built-in specs.
 COLLECT_GCC=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++
 COLLECT_LTO_WRAPPER=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper
@@ -228,10 +228,10 @@ Thread model: posix
 gcc version 8.2.0 (crosstool-NG esp32-2019r1) 
 COMPILER_PATH=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/:/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/:/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_126e8'
- /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNl88jA.res -o cmTC_126e8 -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_126e8.dir/CMakeCXXCompilerABI.cpp.obj
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_a81c5'
+ /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgg5Jz4.res -o cmTC_a81c5 -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_a81c5.dir/CMakeCXXCompilerABI.cpp.obj
 /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_126e8'
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_a81c5'
 make[4]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
 make[3]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
 
@@ -240,15 +240,15 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_126e8/fast"]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a81c5/fast"]
   ignore line: [make[3]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_126e8.dir/build.make CMakeFiles/cmTC_126e8.dir/build]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a81c5.dir/build.make CMakeFiles/cmTC_a81c5.dir/build]
   ignore line: [make[4]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_126e8.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_126e8.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_126e8]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_126e8.dir/link.txt --verbose=1]
-  ignore line: [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls -Wno-frame-address   -nostdlib -v CMakeFiles/cmTC_126e8.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_126e8 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_a81c5.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_a81c5.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_a81c5]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a81c5.dir/link.txt --verbose=1]
+  ignore line: [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls -Wno-frame-address   -nostdlib -v CMakeFiles/cmTC_a81c5.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_a81c5 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper]
@@ -258,19 +258,19 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.2.0 (crosstool-NG esp32-2019r1) ]
   ignore line: [COMPILER_PATH=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/:/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/]
   ignore line: [LIBRARY_PATH=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/:/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_126e8']
-  link line: [ /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNl88jA.res -o cmTC_126e8 -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_126e8.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_a81c5']
+  link line: [ /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgg5Jz4.res -o cmTC_a81c5 -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_a81c5.dir/CMakeCXXCompilerABI.cpp.obj]
     arg [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccNl88jA.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccgg5Jz4.res] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_126e8] ==> ignore
+    arg [cmTC_a81c5] ==> ignore
     arg [-L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> dir [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0]
     arg [-L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc]
     arg [-L/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib]
-    arg [CMakeFiles/cmTC_126e8.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_a81c5.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
   collapse library dir [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0]
   collapse library dir [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/lib/gcc]
   collapse library dir [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> [/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/lib]
@@ -284,15 +284,15 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ea85e/fast"
+Run Build Command:"/usr/bin/make" "cmTC_1aa6e/fast"
 make[3]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_ea85e.dir/build.make CMakeFiles/cmTC_ea85e.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_1aa6e.dir/build.make CMakeFiles/cmTC_1aa6e.dir/build
 make[4]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ea85e.dir/feature_tests.cxx.obj
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls -Wno-frame-address    -std=c++1z -o CMakeFiles/cmTC_ea85e.dir/feature_tests.cxx.obj -c /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ea85e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea85e.dir/link.txt --verbose=1
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_ea85e.dir/feature_tests.cxx.obj  -o cmTC_ea85e 
+Building CXX object CMakeFiles/cmTC_1aa6e.dir/feature_tests.cxx.obj
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls -Wno-frame-address    -std=c++1z -o CMakeFiles/cmTC_1aa6e.dir/feature_tests.cxx.obj -c /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1aa6e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1aa6e.dir/link.txt --verbose=1
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_1aa6e.dir/feature_tests.cxx.obj  -o cmTC_1aa6e 
 /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
 make[4]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
 make[3]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
@@ -360,15 +360,15 @@ make[3]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_445a6/fast"
+Run Build Command:"/usr/bin/make" "cmTC_f0afd/fast"
 make[3]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_445a6.dir/build.make CMakeFiles/cmTC_445a6.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_f0afd.dir/build.make CMakeFiles/cmTC_f0afd.dir/build
 make[4]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_445a6.dir/feature_tests.cxx.obj
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls -Wno-frame-address    -std=c++14 -o CMakeFiles/cmTC_445a6.dir/feature_tests.cxx.obj -c /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_445a6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_445a6.dir/link.txt --verbose=1
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_445a6.dir/feature_tests.cxx.obj  -o cmTC_445a6 
+Building CXX object CMakeFiles/cmTC_f0afd.dir/feature_tests.cxx.obj
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls -Wno-frame-address    -std=c++14 -o CMakeFiles/cmTC_f0afd.dir/feature_tests.cxx.obj -c /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f0afd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0afd.dir/link.txt --verbose=1
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_f0afd.dir/feature_tests.cxx.obj  -o cmTC_f0afd 
 /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
 make[4]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
 make[3]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
@@ -436,15 +436,15 @@ make[3]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3a8c5/fast"
+Run Build Command:"/usr/bin/make" "cmTC_97f8c/fast"
 make[3]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_3a8c5.dir/build.make CMakeFiles/cmTC_3a8c5.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_97f8c.dir/build.make CMakeFiles/cmTC_97f8c.dir/build
 make[4]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3a8c5.dir/feature_tests.cxx.obj
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls -Wno-frame-address    -std=c++11 -o CMakeFiles/cmTC_3a8c5.dir/feature_tests.cxx.obj -c /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_3a8c5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a8c5.dir/link.txt --verbose=1
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_3a8c5.dir/feature_tests.cxx.obj  -o cmTC_3a8c5 
+Building CXX object CMakeFiles/cmTC_97f8c.dir/feature_tests.cxx.obj
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls -Wno-frame-address    -std=c++11 -o CMakeFiles/cmTC_97f8c.dir/feature_tests.cxx.obj -c /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_97f8c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97f8c.dir/link.txt --verbose=1
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_97f8c.dir/feature_tests.cxx.obj  -o cmTC_97f8c 
 /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
 make[4]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
 make[3]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
@@ -512,15 +512,15 @@ make[3]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8db5b/fast"
+Run Build Command:"/usr/bin/make" "cmTC_fcd97/fast"
 make[3]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_8db5b.dir/build.make CMakeFiles/cmTC_8db5b.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_fcd97.dir/build.make CMakeFiles/cmTC_fcd97.dir/build
 make[4]: Entering directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8db5b.dir/feature_tests.cxx.obj
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls -Wno-frame-address    -std=c++98 -o CMakeFiles/cmTC_8db5b.dir/feature_tests.cxx.obj -c /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8db5b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8db5b.dir/link.txt --verbose=1
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_8db5b.dir/feature_tests.cxx.obj  -o cmTC_8db5b 
+Building CXX object CMakeFiles/cmTC_fcd97.dir/feature_tests.cxx.obj
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls -Wno-frame-address    -std=c++98 -o CMakeFiles/cmTC_fcd97.dir/feature_tests.cxx.obj -c /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_fcd97
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcd97.dir/link.txt --verbose=1
+/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls -Wno-frame-address   -nostdlib  CMakeFiles/cmTC_fcd97.dir/feature_tests.cxx.obj  -o cmTC_fcd97 
 /media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
 make[4]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'
 make[3]: Leaving directory '/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/bootloader/CMakeFiles/CMakeTmp'

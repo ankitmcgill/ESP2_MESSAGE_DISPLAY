@@ -222,6 +222,19 @@ bootloader/fast:
 .PHONY : bootloader/fast
 
 #=============================================================================
+# Target rules for targets named confserver
+
+# Build rule for target.
+confserver: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 confserver
+.PHONY : confserver
+
+# fast build rule for target.
+confserver/fast:
+	$(MAKE) -f CMakeFiles/confserver.dir/build.make CMakeFiles/confserver.dir/build
+.PHONY : confserver/fast
+
+#=============================================================================
 # Target rules for targets named ___idf_heap
 
 # Build rule for target.
@@ -651,19 +664,6 @@ ___idf_cxx/fast:
 .PHONY : ___idf_cxx/fast
 
 #=============================================================================
-# Target rules for targets named confserver
-
-# Build rule for target.
-confserver: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 confserver
-.PHONY : confserver
-
-# fast build rule for target.
-confserver/fast:
-	$(MAKE) -f CMakeFiles/confserver.dir/build.make CMakeFiles/confserver.dir/build
-.PHONY : confserver/fast
-
-#=============================================================================
 # Target rules for targets named ___idf_esp_https_server
 
 # Build rule for target.
@@ -688,6 +688,19 @@ ___idf_esp-tls: cmake_check_build_system
 ___idf_esp-tls/fast:
 	$(MAKE) -f CMakeFiles/___idf_esp-tls.dir/build.make CMakeFiles/___idf_esp-tls.dir/build
 .PHONY : ___idf_esp-tls/fast
+
+#=============================================================================
+# Target rules for targets named ___idf_internal_webserver
+
+# Build rule for target.
+___idf_internal_webserver: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ___idf_internal_webserver
+.PHONY : ___idf_internal_webserver
+
+# fast build rule for target.
+___idf_internal_webserver/fast:
+	$(MAKE) -f CMakeFiles/___idf_internal_webserver.dir/build.make CMakeFiles/___idf_internal_webserver.dir/build
+.PHONY : ___idf_internal_webserver/fast
 
 #=============================================================================
 # Target rules for targets named ___idf_efuse
@@ -2263,6 +2276,19 @@ __idf_internal_wifi/fast:
 .PHONY : __idf_internal_wifi/fast
 
 #=============================================================================
+# Target rules for targets named __idf_internal_webserver
+
+# Build rule for target.
+__idf_internal_webserver: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 __idf_internal_webserver
+.PHONY : __idf_internal_webserver
+
+# fast build rule for target.
+__idf_internal_webserver/fast:
+	$(MAKE) -f esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/build.make esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/build
+.PHONY : __idf_internal_webserver/fast
+
+#=============================================================================
 # Target rules for targets named __idf_external_led
 
 # Build rule for target.
@@ -2369,6 +2395,7 @@ help:
 	@echo "... app"
 	@echo "... gen_project_binary"
 	@echo "... bootloader"
+	@echo "... confserver"
 	@echo "... install/strip"
 	@echo "... ___idf_heap"
 	@echo "... ___idf_fatfs"
@@ -2403,9 +2430,9 @@ help:
 	@echo "... ___idf_esptool_py"
 	@echo "... size"
 	@echo "... ___idf_cxx"
-	@echo "... confserver"
 	@echo "... ___idf_esp_https_server"
 	@echo "... ___idf_esp-tls"
+	@echo "... ___idf_internal_webserver"
 	@echo "... ___idf_efuse"
 	@echo "... ___idf_espcoredump"
 	@echo "... ___idf_freertos"
@@ -2528,6 +2555,7 @@ help:
 	@echo "... __idf_internal_flash"
 	@echo "... __idf_global"
 	@echo "... __idf_internal_wifi"
+	@echo "... __idf_internal_webserver"
 	@echo "... __idf_external_led"
 	@echo "... __idf_external_lcd"
 	@echo "... __idf_external_button"

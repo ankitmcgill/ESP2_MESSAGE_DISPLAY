@@ -9,6 +9,7 @@
 #include "external_button.h"
 #include "internal_flash.h"
 #include "internal_wifi.h"
+#include "internal_webserver.h"
 #include "ESP32_UTIL.h"
 #include "project_info.h"
 
@@ -39,11 +40,17 @@ void app_main(void)
 
     INTERNAL_FLASH_Init();
     INTERNAL_WIFI_Init();
+    INTERNAL_WEBSERVER_Init();
     EXTERNAL_LED_Init();
     EXTERNAL_LCD_Init();
     EXTERNAL_BUTTON_Init();
 
     EXTERNAL_LED_ShowNotification(0, 255, 255);
+
+    EXTERNAL_LCD_PutStringCenteredInLine("ankit", 1);
+    EXTERNAL_LCD_PutStringCenteredInLine("bhatnagar", 2);
+    EXTERNAL_LCD_PutStringLeftInLine("ankit", 3);
+    EXTERNAL_LCD_PutStringRightInLine("bhatnagar", 4);
 }
 
 static void s_print_project_info(void)

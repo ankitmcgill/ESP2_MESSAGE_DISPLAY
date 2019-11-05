@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////
-//ELTS - ESP32 LASER TAG SYSTEM
+//ESP32 MESSAGE DISPLAY
 //
 //EXTERNAL - LCD
 //LED CONTROL BASED ON ESP32 LEDC PERIPHERAL
@@ -33,6 +33,7 @@ void EXTERNAL_LCD_Init(void);
 void EXTERNAL_LCD_Clear(void);
 
 void EXTERNAL_LCD_PutStringLeftInLine(char* str, uint8_t line_num);
+void EXTERNAL_LCD_PutStringRightInLine(char* str, uint8_t line_num);
 void EXTERNAL_LCD_PutStringCenteredInLine(char* str, uint8_t line_num);
 
 uint8_t EXTERNAL_LCD_DisplayUserMessage(char* message);

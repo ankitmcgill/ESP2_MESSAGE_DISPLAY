@@ -5,6 +5,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: ../components/external/extern
 esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: ../components/external/external_lcd/include/external_lcd.h
 esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: ../components/external/external_led/include/external_led.h
 esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: ../components/internal/internal_flash/include/internal_flash.h
+esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: ../components/internal/internal_webserver/include/internal_webserver.h
 esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: ../components/internal/internal_wifi/include/internal_wifi.h
 esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: ../components/util/ESP32_UTIL/include/ESP32_UTIL.h
 esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: ../main/main.c

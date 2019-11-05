@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////
-//ELTS - ESP32 LASER TAG SYSTEM
+//ESP32 MESSAGE DISPLAY
 //
 //EXTERNAL - LCD
 //LED CONTROL BASED ON ESP32 LEDC PERIPHERAL
@@ -103,6 +103,50 @@ void EXTERNAL_LCD_PutStringLeftInLine(char* str, uint8_t line_num)
     }
 }
 
+void EXTERNAL_LCD_PutStringRightInLine(char* str, uint8_t line_num)
+{
+    //Display String Right Justified In Specified Line
+
+    if(strlen(str) > EXTERNAL_LCD_WIDTH_LINE)
+    {
+        //Too Big To Fit
+
+        return;
+    }
+
+    switch(line_num)
+    {
+        case 1:
+            s_external_lcd_send_command(EXTERNAL_LCD_ADDRESS_LINE_1);
+            break;
+
+        case 2:
+            s_external_lcd_send_command(EXTERNAL_LCD_ADDRESS_LINE_2);
+            break;
+
+        case 3:
+            s_external_lcd_send_command(EXTERNAL_LCD_ADDRESS_LINE_3);
+            break;
+
+        case 4:
+            s_external_lcd_send_command(EXTERNAL_LCD_ADDRESS_LINE_4);
+            break;
+
+        default:
+            return;
+    }
+
+    for(uint8_t i = 0; i < EXTERNAL_LCD_WIDTH_LINE - strlen(str); i++)
+    {
+        s_external_lcd_send_data(' ');
+    }
+
+    for(uint8_t i = 0; i < strlen(str); i++)
+    {
+        s_external_lcd_send_data(str[i]);
+    }
+}
+
 void EXTERNAL_LCD_PutStringCenteredInLine(char* str, uint8_t line_num)
 {
     //Display String Center Justified In Specified Line
@@ -180,9 +224,9 @@ static void s_external_lcd_send_data(uint8_t data)
     s_external_lcd_set_data_lines(data);
     gpio_set_level(BSP_LCD_RS, 1);
     gpio_set_level(BSP_LCD_EN, 1);
-    vTaskDelay(20 / portTICK_PERIOD_MS);
+    vTaskDelay(10 / portTICK_PERIOD_MS);
     gpio_set_level(BSP_LCD_EN, 0);
-    vTaskDelay(20 / portTICK_PERIOD_MS);
+    vTaskDelay(10 / portTICK_PERIOD_MS);
 }
 
 static void s_external_lcd_set_data_lines(uint8_t data)

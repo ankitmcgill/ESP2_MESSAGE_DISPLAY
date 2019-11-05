@@ -113,7 +113,7 @@ all: CMakeFiles/esp32-message-display.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/esp32-message-display.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 96
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 97
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/esp32-message-display.elf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : CMakeFiles/esp32-message-display.elf.dir/rule
@@ -211,7 +211,7 @@ clean: CMakeFiles/app.dir/clean
 CMakeFiles/gen_project_binary.dir/all: CMakeFiles/esp32-message-display.elf.dir/all
 	$(MAKE) -f CMakeFiles/gen_project_binary.dir/build.make CMakeFiles/gen_project_binary.dir/depend
 	$(MAKE) -f CMakeFiles/gen_project_binary.dir/build.make CMakeFiles/gen_project_binary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num=88 "Built target gen_project_binary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num= "Built target gen_project_binary"
 .PHONY : CMakeFiles/gen_project_binary.dir/all
 
 # Build rule for subdir invocation for target.
@@ -270,6 +270,38 @@ CMakeFiles/bootloader.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/bootloader.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/confserver.dir
+
+# All Build rule for target.
+CMakeFiles/confserver.dir/all:
+	$(MAKE) -f CMakeFiles/confserver.dir/build.make CMakeFiles/confserver.dir/depend
+	$(MAKE) -f CMakeFiles/confserver.dir/build.make CMakeFiles/confserver.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num= "Built target confserver"
+.PHONY : CMakeFiles/confserver.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/confserver.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/confserver.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
+.PHONY : CMakeFiles/confserver.dir/rule
+
+# Convenience name for target.
+confserver: CMakeFiles/confserver.dir/rule
+
+.PHONY : confserver
+
+# clean rule for target.
+CMakeFiles/confserver.dir/clean:
+	$(MAKE) -f CMakeFiles/confserver.dir/build.make CMakeFiles/confserver.dir/clean
+.PHONY : CMakeFiles/confserver.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/confserver.dir/clean
 
 .PHONY : clean
 
@@ -1117,7 +1149,7 @@ CMakeFiles/size-files.dir/all: CMakeFiles/esp32-message-display.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/size-files.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 96
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 97
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/size-files.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : CMakeFiles/size-files.dir/rule
@@ -1181,7 +1213,7 @@ CMakeFiles/__idf_build_target.dir/all: esp-idf/esp32/CMakeFiles/__ldgen_output_e
 
 # Build rule for subdir invocation for target.
 CMakeFiles/__idf_build_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 96
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 97
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/__idf_build_target.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : CMakeFiles/__idf_build_target.dir/rule
@@ -1277,7 +1309,7 @@ CMakeFiles/size.dir/all: CMakeFiles/esp32-message-display.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/size.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 96
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 97
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/size.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : CMakeFiles/size.dir/rule
@@ -1326,38 +1358,6 @@ CMakeFiles/___idf_cxx.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/___idf_cxx.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/confserver.dir
-
-# All Build rule for target.
-CMakeFiles/confserver.dir/all:
-	$(MAKE) -f CMakeFiles/confserver.dir/build.make CMakeFiles/confserver.dir/depend
-	$(MAKE) -f CMakeFiles/confserver.dir/build.make CMakeFiles/confserver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num= "Built target confserver"
-.PHONY : CMakeFiles/confserver.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/confserver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/confserver.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
-.PHONY : CMakeFiles/confserver.dir/rule
-
-# Convenience name for target.
-confserver: CMakeFiles/confserver.dir/rule
-
-.PHONY : confserver
-
-# clean rule for target.
-CMakeFiles/confserver.dir/clean:
-	$(MAKE) -f CMakeFiles/confserver.dir/build.make CMakeFiles/confserver.dir/clean
-.PHONY : CMakeFiles/confserver.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/confserver.dir/clean
 
 .PHONY : clean
 
@@ -1422,6 +1422,38 @@ CMakeFiles/___idf_esp-tls.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/___idf_esp-tls.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/___idf_internal_webserver.dir
+
+# All Build rule for target.
+CMakeFiles/___idf_internal_webserver.dir/all:
+	$(MAKE) -f CMakeFiles/___idf_internal_webserver.dir/build.make CMakeFiles/___idf_internal_webserver.dir/depend
+	$(MAKE) -f CMakeFiles/___idf_internal_webserver.dir/build.make CMakeFiles/___idf_internal_webserver.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num= "Built target ___idf_internal_webserver"
+.PHONY : CMakeFiles/___idf_internal_webserver.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/___idf_internal_webserver.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/___idf_internal_webserver.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
+.PHONY : CMakeFiles/___idf_internal_webserver.dir/rule
+
+# Convenience name for target.
+___idf_internal_webserver: CMakeFiles/___idf_internal_webserver.dir/rule
+
+.PHONY : ___idf_internal_webserver
+
+# clean rule for target.
+CMakeFiles/___idf_internal_webserver.dir/clean:
+	$(MAKE) -f CMakeFiles/___idf_internal_webserver.dir/build.make CMakeFiles/___idf_internal_webserver.dir/clean
+.PHONY : CMakeFiles/___idf_internal_webserver.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/___idf_internal_webserver.dir/clean
 
 .PHONY : clean
 
@@ -1981,7 +2013,7 @@ CMakeFiles/size-components.dir/all: CMakeFiles/esp32-message-display.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/size-components.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 96
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 97
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/size-components.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : CMakeFiles/size-components.dir/rule
@@ -3002,6 +3034,7 @@ esp-idf/all: esp-idf/internal_flash/all
 esp-idf/all: esp-idf/global/all
 esp-idf/all: esp-idf/internal_wifi/all
 esp-idf/all: esp-idf/bsp/all
+esp-idf/all: esp-idf/internal_webserver/all
 esp-idf/all: esp-idf/external_led/all
 esp-idf/all: esp-idf/external_lcd/all
 esp-idf/all: esp-idf/external_button/all
@@ -3080,6 +3113,7 @@ esp-idf/clean: esp-idf/internal_flash/clean
 esp-idf/clean: esp-idf/global/clean
 esp-idf/clean: esp-idf/internal_wifi/clean
 esp-idf/clean: esp-idf/bsp/clean
+esp-idf/clean: esp-idf/internal_webserver/clean
 esp-idf/clean: esp-idf/external_led/clean
 esp-idf/clean: esp-idf/external_lcd/clean
 esp-idf/clean: esp-idf/external_button/clean
@@ -3158,6 +3192,7 @@ esp-idf/preinstall: esp-idf/internal_flash/preinstall
 esp-idf/preinstall: esp-idf/global/preinstall
 esp-idf/preinstall: esp-idf/internal_wifi/preinstall
 esp-idf/preinstall: esp-idf/bsp/preinstall
+esp-idf/preinstall: esp-idf/internal_webserver/preinstall
 esp-idf/preinstall: esp-idf/external_led/preinstall
 esp-idf/preinstall: esp-idf/external_lcd/preinstall
 esp-idf/preinstall: esp-idf/external_button/preinstall
@@ -3201,7 +3236,7 @@ all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 53
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/rule
@@ -3256,7 +3291,7 @@ all: esp-idf/driver/CMakeFiles/__idf_driver.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/driver/CMakeFiles/__idf_driver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 53
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/driver/CMakeFiles/__idf_driver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/driver/CMakeFiles/__idf_driver.dir/rule
@@ -3388,7 +3423,7 @@ all: esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 49
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/rule
@@ -3425,7 +3460,7 @@ all: esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 49
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 48
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/rule
@@ -3462,7 +3497,7 @@ all: esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 40
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/rule
@@ -3494,7 +3529,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/all: esp-idf/esp_ringbuf/CMak
 
 # Build rule for subdir invocation for target.
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 53
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/rule
@@ -3567,7 +3602,7 @@ all: esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 40
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 39
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/rule
@@ -3658,7 +3693,7 @@ all: esp-idf/efuse/CMakeFiles/__idf_efuse.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/efuse/CMakeFiles/__idf_efuse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/efuse/CMakeFiles/__idf_efuse.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/efuse/CMakeFiles/__idf_efuse.dir/rule
@@ -3809,7 +3844,7 @@ all: esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/rule
@@ -3919,7 +3954,7 @@ all: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/app_update/CMakeFiles/__idf_app_update.dir/rule
@@ -3974,7 +4009,7 @@ all: esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/rule
@@ -4029,7 +4064,7 @@ all: esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 27
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/rule
@@ -4084,7 +4119,7 @@ all: esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 26
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/rule
@@ -4139,7 +4174,7 @@ all: esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/rule
@@ -4184,7 +4219,7 @@ esp-idf/lwip/preinstall:
 esp-idf/lwip/CMakeFiles/__idf_lwip.dir/all: esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/all
 	$(MAKE) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/depend
 	$(MAKE) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num=46,47,48,49,50,51,52,53,54,55 "Built target __idf_lwip"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num=47,48,49,50,51,52,53,54,55 "Built target __idf_lwip"
 .PHONY : esp-idf/lwip/CMakeFiles/__idf_lwip.dir/all
 
 # Include target in all.
@@ -4194,7 +4229,7 @@ all: esp-idf/lwip/CMakeFiles/__idf_lwip.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/lwip/CMakeFiles/__idf_lwip.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/lwip/CMakeFiles/__idf_lwip.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/lwip/CMakeFiles/__idf_lwip.dir/rule
@@ -4349,7 +4384,7 @@ esp-idf/pthread/preinstall:
 esp-idf/pthread/CMakeFiles/__idf_pthread.dir/all: esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/all
 	$(MAKE) -f esp-idf/pthread/CMakeFiles/__idf_pthread.dir/build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/depend
 	$(MAKE) -f esp-idf/pthread/CMakeFiles/__idf_pthread.dir/build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num=65 "Built target __idf_pthread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num= "Built target __idf_pthread"
 .PHONY : esp-idf/pthread/CMakeFiles/__idf_pthread.dir/all
 
 # Include target in all.
@@ -4414,7 +4449,7 @@ all: esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/rule
@@ -4461,12 +4496,12 @@ esp-idf/esp32/preinstall:
 esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/all:
 	$(MAKE) -f esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/build.make esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/depend
 	$(MAKE) -f esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/build.make esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num= "Built target esp32_linker_script"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num=88 "Built target esp32_linker_script"
 .PHONY : esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/rule
@@ -4503,7 +4538,7 @@ all: esp-idf/esp32/CMakeFiles/__idf_esp32.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp32/CMakeFiles/__idf_esp32.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp32/CMakeFiles/__idf_esp32.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/esp32/CMakeFiles/__idf_esp32.dir/rule
@@ -4570,7 +4605,7 @@ esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/ESP32_
 
 # Build rule for subdir invocation for target.
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 96
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 97
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/rule
@@ -4625,7 +4660,7 @@ all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/rule
@@ -4670,7 +4705,7 @@ esp-idf/esp_common/preinstall:
 esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/all: esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/all
 	$(MAKE) -f esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/depend
 	$(MAKE) -f esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num=15 "Built target __idf_esp_common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num=14,15 "Built target __idf_esp_common"
 .PHONY : esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/all
 
 # Include target in all.
@@ -4680,7 +4715,7 @@ all: esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/rule
@@ -4835,7 +4870,7 @@ esp-idf/log/preinstall:
 esp-idf/log/CMakeFiles/__idf_log.dir/all: esp-idf/heap/CMakeFiles/__idf_heap.dir/all
 	$(MAKE) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/depend
 	$(MAKE) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num= "Built target __idf_log"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num=46 "Built target __idf_log"
 .PHONY : esp-idf/log/CMakeFiles/__idf_log.dir/all
 
 # Include target in all.
@@ -4890,7 +4925,7 @@ esp-idf/heap/preinstall:
 esp-idf/heap/CMakeFiles/__idf_heap.dir/all: esp-idf/freertos/CMakeFiles/__idf_freertos.dir/all
 	$(MAKE) -f esp-idf/heap/CMakeFiles/__idf_heap.dir/build.make esp-idf/heap/CMakeFiles/__idf_heap.dir/depend
 	$(MAKE) -f esp-idf/heap/CMakeFiles/__idf_heap.dir/build.make esp-idf/heap/CMakeFiles/__idf_heap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num=31 "Built target __idf_heap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num= "Built target __idf_heap"
 .PHONY : esp-idf/heap/CMakeFiles/__idf_heap.dir/all
 
 # Include target in all.
@@ -4900,7 +4935,7 @@ all: esp-idf/heap/CMakeFiles/__idf_heap.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/heap/CMakeFiles/__idf_heap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/heap/CMakeFiles/__idf_heap.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/heap/CMakeFiles/__idf_heap.dir/rule
@@ -5055,7 +5090,7 @@ esp-idf/newlib/preinstall:
 esp-idf/newlib/CMakeFiles/__idf_newlib.dir/all: esp-idf/cxx/CMakeFiles/__idf_cxx.dir/all
 	$(MAKE) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/depend
 	$(MAKE) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num=57,58 "Built target __idf_newlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num=58 "Built target __idf_newlib"
 .PHONY : esp-idf/newlib/CMakeFiles/__idf_newlib.dir/all
 
 # Include target in all.
@@ -5120,7 +5155,7 @@ all: esp-idf/cxx/CMakeFiles/__idf_cxx.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/cxx/CMakeFiles/__idf_cxx.dir/rule
@@ -5175,7 +5210,7 @@ all: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/rule
@@ -5230,7 +5265,7 @@ all: esp-idf/asio/CMakeFiles/__idf_asio.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/asio/CMakeFiles/__idf_asio.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 53
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/asio/CMakeFiles/__idf_asio.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/asio/CMakeFiles/__idf_asio.dir/rule
@@ -5353,7 +5388,7 @@ all: esp-idf/cbor/CMakeFiles/__idf_cbor.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/cbor/CMakeFiles/__idf_cbor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 55
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 54
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/cbor/CMakeFiles/__idf_cbor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/cbor/CMakeFiles/__idf_cbor.dir/rule
@@ -5408,7 +5443,7 @@ all: esp-idf/coap/CMakeFiles/__idf_coap.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/coap/CMakeFiles/__idf_coap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 55
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 54
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/coap/CMakeFiles/__idf_coap.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/coap/CMakeFiles/__idf_coap.dir/rule
@@ -5463,7 +5498,7 @@ all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/console/CMakeFiles/__idf_console.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 53
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/console/CMakeFiles/__idf_console.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/console/CMakeFiles/__idf_console.dir/rule
@@ -5518,7 +5553,7 @@ all: esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 56
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 55
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/rule
@@ -5574,7 +5609,7 @@ all: esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 56
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 55
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/rule
@@ -5619,7 +5654,7 @@ esp-idf/esp_adc_cal/preinstall:
 esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
 	$(MAKE) -f esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/build.make esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/depend
 	$(MAKE) -f esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/build.make esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num=14 "Built target __idf_esp_adc_cal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num= "Built target __idf_esp_adc_cal"
 .PHONY : esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/all
 
 # Include target in all.
@@ -5629,7 +5664,7 @@ all: esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/rule
@@ -5684,7 +5719,7 @@ all: esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 53
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/rule
@@ -5741,7 +5776,7 @@ all: esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 57
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 56
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/rule
@@ -5799,7 +5834,7 @@ all: esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 57
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 56
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/rule
@@ -5855,7 +5890,7 @@ all: esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 57
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 56
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/rule
@@ -5904,7 +5939,7 @@ esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/all: esp-idf/tcp_transp
 esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/all: esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/all
 	$(MAKE) -f esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/build.make esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/depend
 	$(MAKE) -f esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/build.make esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num=19 "Built target __idf_esp_https_ota"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num= "Built target __idf_esp_https_ota"
 .PHONY : esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/all
 
 # Include target in all.
@@ -5914,7 +5949,7 @@ all: esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 58
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 56
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/rule
@@ -5987,7 +6022,7 @@ all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 53
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/rule
@@ -6036,7 +6071,7 @@ esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all: esp-idf/esp_http_server/CM
 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 	$(MAKE) -f esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/depend
 	$(MAKE) -f esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num=64 "Built target __idf_protocomm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num=64,65 "Built target __idf_protocomm"
 .PHONY : esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
 
 # Include target in all.
@@ -6102,7 +6137,7 @@ all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/mdns/CMakeFiles/__idf_mdns.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 55
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 54
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/mdns/CMakeFiles/__idf_mdns.dir/rule
@@ -6154,7 +6189,7 @@ esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/protocom
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
 	$(MAKE) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/depend
 	$(MAKE) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num= "Built target __idf_esp_local_ctrl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num=19 "Built target __idf_esp_local_ctrl"
 .PHONY : esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
 
 # Include target in all.
@@ -6164,7 +6199,7 @@ all: esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 61
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/rule
@@ -6222,7 +6257,7 @@ all: esp-idf/esp_websocket_client/CMakeFiles/__idf_esp_websocket_client.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_websocket_client/CMakeFiles/__idf_esp_websocket_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 58
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 57
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_websocket_client/CMakeFiles/__idf_esp_websocket_client.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/esp_websocket_client/CMakeFiles/__idf_esp_websocket_client.dir/rule
@@ -6295,7 +6330,7 @@ all: esp-idf/expat/CMakeFiles/__idf_expat.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/expat/CMakeFiles/__idf_expat.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 53
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/expat/CMakeFiles/__idf_expat.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/expat/CMakeFiles/__idf_expat.dir/rule
@@ -6350,7 +6385,7 @@ all: esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 53
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/rule
@@ -6405,7 +6440,7 @@ all: esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 53
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/rule
@@ -6462,7 +6497,7 @@ all: esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 56
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 55
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/rule
@@ -6517,7 +6552,7 @@ all: esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 57
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 56
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/rule
@@ -6590,7 +6625,7 @@ all: esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 53
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/rule
@@ -6645,7 +6680,7 @@ all: esp-idf/json/CMakeFiles/__idf_json.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/json/CMakeFiles/__idf_json.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 53
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/json/CMakeFiles/__idf_json.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/json/CMakeFiles/__idf_json.dir/rule
@@ -6700,7 +6735,7 @@ all: esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 65
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/rule
@@ -6748,7 +6783,7 @@ esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all: esp-idf/esp-tls/CMakeFiles/__idf_esp
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all: esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/all
 	$(MAKE) -f esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/build.make esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/depend
 	$(MAKE) -f esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/build.make esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num= "Built target __idf_mqtt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num=57 "Built target __idf_mqtt"
 .PHONY : esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all
 
 # Include target in all.
@@ -6813,7 +6848,7 @@ all: esp-idf/openssl/CMakeFiles/__idf_openssl.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/openssl/CMakeFiles/__idf_openssl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 53
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/openssl/CMakeFiles/__idf_openssl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/openssl/CMakeFiles/__idf_openssl.dir/rule
@@ -6868,7 +6903,7 @@ all: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 53
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/rule
@@ -6923,7 +6958,7 @@ all: esp-idf/ulp/CMakeFiles/__idf_ulp.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/ulp/CMakeFiles/__idf_ulp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 53
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/ulp/CMakeFiles/__idf_ulp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/ulp/CMakeFiles/__idf_ulp.dir/rule
@@ -6978,7 +7013,7 @@ all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/unity/CMakeFiles/__idf_unity.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 53
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/unity/CMakeFiles/__idf_unity.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/unity/CMakeFiles/__idf_unity.dir/rule
@@ -7085,7 +7120,7 @@ esp-idf/internal_flash/preinstall:
 esp-idf/internal_flash/CMakeFiles/__idf_internal_flash.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
 	$(MAKE) -f esp-idf/internal_flash/CMakeFiles/__idf_internal_flash.dir/build.make esp-idf/internal_flash/CMakeFiles/__idf_internal_flash.dir/depend
 	$(MAKE) -f esp-idf/internal_flash/CMakeFiles/__idf_internal_flash.dir/build.make esp-idf/internal_flash/CMakeFiles/__idf_internal_flash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num= "Built target __idf_internal_flash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num=31 "Built target __idf_internal_flash"
 .PHONY : esp-idf/internal_flash/CMakeFiles/__idf_internal_flash.dir/all
 
 # Include target in all.
@@ -7150,7 +7185,7 @@ all: esp-idf/global/CMakeFiles/__idf_global.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/global/CMakeFiles/__idf_global.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 53
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/global/CMakeFiles/__idf_global.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/global/CMakeFiles/__idf_global.dir/rule
@@ -7192,7 +7227,7 @@ esp-idf/internal_wifi/preinstall:
 # Target rules for target esp-idf/internal_wifi/CMakeFiles/__idf_internal_wifi.dir
 
 # All Build rule for target.
-esp-idf/internal_wifi/CMakeFiles/__idf_internal_wifi.dir/all: esp-idf/external_led/CMakeFiles/__idf_external_led.dir/all
+esp-idf/internal_wifi/CMakeFiles/__idf_internal_wifi.dir/all: esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/all
 	$(MAKE) -f esp-idf/internal_wifi/CMakeFiles/__idf_internal_wifi.dir/build.make esp-idf/internal_wifi/CMakeFiles/__idf_internal_wifi.dir/depend
 	$(MAKE) -f esp-idf/internal_wifi/CMakeFiles/__idf_internal_wifi.dir/build.make esp-idf/internal_wifi/CMakeFiles/__idf_internal_wifi.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num= "Built target __idf_internal_wifi"
@@ -7242,6 +7277,61 @@ esp-idf/bsp/clean:
 esp-idf/bsp/preinstall:
 
 .PHONY : esp-idf/bsp/preinstall
+
+#=============================================================================
+# Directory level rules for directory esp-idf/internal_webserver
+
+# Convenience name for "all" pass in the directory.
+esp-idf/internal_webserver/all: esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/all
+
+.PHONY : esp-idf/internal_webserver/all
+
+# Convenience name for "clean" pass in the directory.
+esp-idf/internal_webserver/clean: esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/clean
+
+.PHONY : esp-idf/internal_webserver/clean
+
+# Convenience name for "preinstall" pass in the directory.
+esp-idf/internal_webserver/preinstall:
+
+.PHONY : esp-idf/internal_webserver/preinstall
+
+#=============================================================================
+# Target rules for target esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir
+
+# All Build rule for target.
+esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/all: esp-idf/external_led/CMakeFiles/__idf_external_led.dir/all
+	$(MAKE) -f esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/build.make esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/depend
+	$(MAKE) -f esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/build.make esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles --progress-num= "Built target __idf_internal_webserver"
+.PHONY : esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/all
+
+# Include target in all.
+all: esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 54
+	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
+.PHONY : esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/rule
+
+# Convenience name for target.
+__idf_internal_webserver: esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/rule
+
+.PHONY : __idf_internal_webserver
+
+# clean rule for target.
+esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/clean:
+	$(MAKE) -f esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/build.make esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/clean
+.PHONY : esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/clean
+
+# clean rule for target.
+clean: esp-idf/internal_webserver/CMakeFiles/__idf_internal_webserver.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Directory level rules for directory esp-idf/external_led
@@ -7443,7 +7533,7 @@ all: esp-idf/ESP32_UTIL/CMakeFiles/__idf_ESP32_UTIL.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/ESP32_UTIL/CMakeFiles/__idf_ESP32_UTIL.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 53
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 esp-idf/ESP32_UTIL/CMakeFiles/__idf_ESP32_UTIL.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/CMakeFiles 0
 .PHONY : esp-idf/ESP32_UTIL/CMakeFiles/__idf_ESP32_UTIL.dir/rule

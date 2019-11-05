@@ -11,6 +11,7 @@ set(EXTRA_COMPONENT_DIRS
                     "./components/external/external_button"
                     "./components/internal/internal_flash"
                     "./components/internal/internal_wifi"
+                    "./components/internal/internal_webserver"
                     "./components/util/ESP32_UTIL"
                     )
 

@@ -59,6 +59,7 @@
 /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/internal_flash/libinternal_flash.a
 /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/global/libglobal.a
 /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/internal_wifi/libinternal_wifi.a
+/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/internal_webserver/libinternal_webserver.a
 /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/external_led/libexternal_led.a
 /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/external_lcd/libexternal_lcd.a
 /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/build/esp-idf/external_button/libexternal_button.a

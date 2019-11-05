@@ -6,6 +6,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
  ../components/external/external_lcd/include/external_lcd.h
  ../components/external/external_led/include/external_led.h
  ../components/internal/internal_flash/include/internal_flash.h
+ ../components/internal/internal_webserver/include/internal_webserver.h
  ../components/internal/internal_wifi/include/internal_wifi.h
  ../components/util/ESP32_UTIL/include/ESP32_UTIL.h
  /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/main/main.c

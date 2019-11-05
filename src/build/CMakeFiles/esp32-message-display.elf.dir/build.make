@@ -155,6 +155,7 @@ esp32-message-display.elf: esp-idf/wifi_provisioning/libwifi_provisioning.a
 esp32-message-display.elf: esp-idf/internal_flash/libinternal_flash.a
 esp32-message-display.elf: esp-idf/global/libglobal.a
 esp32-message-display.elf: esp-idf/internal_wifi/libinternal_wifi.a
+esp32-message-display.elf: esp-idf/internal_webserver/libinternal_webserver.a
 esp32-message-display.elf: esp-idf/external_led/libexternal_led.a
 esp32-message-display.elf: esp-idf/external_lcd/libexternal_lcd.a
 esp32-message-display.elf: esp-idf/external_button/libexternal_button.a
@@ -174,11 +175,13 @@ esp32-message-display.elf: esp-idf/console/libconsole.a
 esp32-message-display.elf: esp-idf/json/libjson.a
 esp32-message-display.elf: esp-idf/main/libmain.a
 esp32-message-display.elf: esp-idf/internal_wifi/libinternal_wifi.a
+esp32-message-display.elf: esp-idf/internal_webserver/libinternal_webserver.a
 esp32-message-display.elf: esp-idf/external_led/libexternal_led.a
 esp32-message-display.elf: esp-idf/external_lcd/libexternal_lcd.a
 esp32-message-display.elf: esp-idf/external_button/libexternal_button.a
 esp32-message-display.elf: esp-idf/main/libmain.a
 esp32-message-display.elf: esp-idf/internal_wifi/libinternal_wifi.a
+esp32-message-display.elf: esp-idf/internal_webserver/libinternal_webserver.a
 esp32-message-display.elf: esp-idf/external_led/libexternal_led.a
 esp32-message-display.elf: esp-idf/external_lcd/libexternal_lcd.a
 esp32-message-display.elf: esp-idf/external_button/libexternal_button.a

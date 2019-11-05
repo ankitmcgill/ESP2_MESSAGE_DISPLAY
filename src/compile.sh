@@ -1,5 +1,5 @@
 ######################################################
-# ELTS - ESP32 LASER TAG SYSTEM
+# ESP32 MESSAGE DISPLAY
 # 
 # Script To Compile ESP32 Code With ESP-IDF
 # 

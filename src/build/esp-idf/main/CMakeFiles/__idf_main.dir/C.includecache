@@ -44,6 +44,16 @@ stdint.h
 stdbool.h
 -
 
+../components/internal/internal_webserver/include/internal_webserver.h
+stdio.h
+-
+stdint.h
+-
+stdbool.h
+-
+string.h
+-
+
 ../components/internal/internal_wifi/include/internal_wifi.h
 stdio.h
 -
@@ -81,6 +91,8 @@ internal_flash.h
 /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/main/internal_flash.h
 internal_wifi.h
 /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/main/internal_wifi.h
+internal_webserver.h
+/home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/main/internal_webserver.h
 ESP32_UTIL.h
 /home/ankit/Sandbox/ESP32_MESSAGE_DISPLAY/src/main/ESP32_UTIL.h
 project_info.h

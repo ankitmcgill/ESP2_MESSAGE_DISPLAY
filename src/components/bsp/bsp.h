@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////
-//ELTS - ESP32 LASER TAG SYSTEM
+//ESP32 MESSAGE DISPLAY
 //
 //BOARD SUPPORT PACKAGE
 //(PIN MAPPINGS)

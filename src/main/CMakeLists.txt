@@ -7,6 +7,7 @@ idf_component_register(SRCS
                         REQUIRES
                             internal_flash
                             internal_wifi
+                            internal_webserver
                             external_led
                             external_lcd
                             external_button
