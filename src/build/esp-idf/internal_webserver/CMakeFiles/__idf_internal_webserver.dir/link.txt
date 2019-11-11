@@ -1,2 +1,0 @@
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libinternal_webserver.a  CMakeFiles/__idf_internal_webserver.dir/internal_webserver.c.obj
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libinternal_webserver.a

@@ -1,2 +1,0 @@
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libesp_adc_cal.a  CMakeFiles/__idf_esp_adc_cal.dir/esp_adc_cal.c.obj
-/media/ankit/mydev/toolchains/esp32/idf-tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libesp_adc_cal.a
