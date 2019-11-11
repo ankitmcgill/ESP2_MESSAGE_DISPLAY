@@ -17,8 +17,8 @@
 #include "freertos/event_groups.h"
 
 #include "internal_webserver.h"
+#include "internal_mdns.h"
 #include "global.h"
-#include "bsp.h"
 
 //Internal Variables
 static httpd_handle_t s_internal_webserver_handle;
@@ -33,6 +33,14 @@ void INTERNAL_WEBSERVER_Init(void)
     //Initialize INTERNAL WEBSERVER
 
     s_internal_webserver_handle = s_internal_webserver_start();
+    
+    if(s_internal_webserver_handle == NULL)
+    {
+        ESP_LOGE(INTERNAL_WEBSERVER_TAG, "cannot start webserver");
+        return;
+    }
+
+    INTERNAL_MDNS_Init();
 
     ESP_LOGD(INTERNAL_WEBSERVER_TAG, "%s OK", __FUNCTION__);
 }
@@ -68,8 +76,6 @@ static httpd_handle_t s_internal_webserver_start(void)
 
         return server;
     }
-
-    ESP_LOGE(INTERNAL_WEBSERVER_TAG, "cannot start webserver");
     return NULL;
 }
 

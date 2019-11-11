@@ -15,11 +15,6 @@
 
 //Internal Functions
 static void s_print_project_info(void);
- 
-esp_err_t event_handler(void *ctx, system_event_t *event)
-{
-    return ESP_OK;
-}
 
 void app_main(void)
 {
@@ -39,11 +34,11 @@ void app_main(void)
     ESP32_UTIL_PrintChipInfo();
 
     INTERNAL_FLASH_Init();
-    INTERNAL_WIFI_Init();
-    INTERNAL_WEBSERVER_Init();
     EXTERNAL_LED_Init();
     EXTERNAL_LCD_Init();
     EXTERNAL_BUTTON_Init();
+    INTERNAL_WIFI_Init();
+    INTERNAL_WEBSERVER_Init();
 
     EXTERNAL_LED_ShowNotification(0, 255, 255);
 
