@@ -6,7 +6,7 @@ idf_component_register(SRCS
                             "include"
                         PRIV_REQUIRES
                             main
-                            driver
+                            esp_http_server
                             global
                             bsp
                         ) 

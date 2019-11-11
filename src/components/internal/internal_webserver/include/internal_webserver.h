@@ -15,7 +15,7 @@
 #include <stdbool.h>
 #include <string.h>
 
-#define INTERNAL_WEBSERVER_TAG      "I:BUTTON"
+#define INTERNAL_WEBSERVER_TAG      "I:WEBSERVER"
 
 void INTERNAL_WEBSERVER_Init(void);
 
