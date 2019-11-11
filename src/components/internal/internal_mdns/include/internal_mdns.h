@@ -16,6 +16,7 @@
 #include <string.h>
 
 #define INTERNAL_MDNS_TAG       "I:MDNS"
+#define INTERNAL_MDNS_HOSTNAME  "message"
 
 void INTERNAL_MDNS_Init(void);
 

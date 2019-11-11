@@ -6,6 +6,7 @@ idf_component_register(SRCS
                             "include"
                         PRIV_REQUIRES
                             main
+                            mdns
                             global
                         ) 
 
