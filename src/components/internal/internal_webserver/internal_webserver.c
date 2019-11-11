@@ -77,6 +77,7 @@ static esp_err_t s_internal_webserver_handler_get(httpd_req_t* req)
 {
     //Webserver GET Request Handler
 
+    httpd_resp_send(req, "HELLO ANKIT", strlen("HELLO ANKIT"));
     return ESP_OK;
 }
 
