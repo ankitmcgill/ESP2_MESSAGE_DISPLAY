@@ -4,7 +4,7 @@
 //INTERNAL - LED
 //LED CONTROL BASED ON ESP32 LEDC PERIPHERAL
 //
-//RODA AWANA SDN BHD
+
 //NOVEMBER 3 2019
 ///////////////////////////////////////////////////////////////
 

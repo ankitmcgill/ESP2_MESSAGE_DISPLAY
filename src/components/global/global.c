@@ -6,7 +6,7 @@
 //CONTAINTS DEFINITIONS & DECLARATIONS OF GLOBAL (EXTERN)
 //VARIABLES FOR THE MODULE LAYER IN ONE PLACE FOR SANITY
 //
-//RODA AWANA SDN BHD
+
 //NOVEMBER 2 2019
 ///////////////////////////////////////////////////////////////
 
