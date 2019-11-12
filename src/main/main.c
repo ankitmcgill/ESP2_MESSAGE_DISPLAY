@@ -8,6 +8,7 @@
 #include "external_lcd.h"
 #include "external_button.h"
 #include "internal_flash.h"
+#include "internal_spiffs.h"
 #include "internal_wifi.h"
 #include "internal_webserver.h"
 #include "ESP32_UTIL.h"
@@ -34,9 +35,12 @@ void app_main(void)
     ESP32_UTIL_PrintChipInfo();
 
     INTERNAL_FLASH_Init();
+    INTERNAL_SPIFFS_Init();
+
     EXTERNAL_LED_Init();
     EXTERNAL_LCD_Init();
     EXTERNAL_BUTTON_Init();
+
     INTERNAL_WIFI_Init();
     INTERNAL_WEBSERVER_Init();
 

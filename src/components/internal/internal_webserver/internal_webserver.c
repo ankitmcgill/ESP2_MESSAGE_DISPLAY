@@ -17,6 +17,7 @@
 #include "freertos/event_groups.h"
 
 #include "internal_webserver.h"
+#include "internal_spiffs.h"
 #include "internal_mdns.h"
 #include "global.h"
 
@@ -59,11 +60,12 @@ static httpd_handle_t s_internal_webserver_start(void)
         //Register GET And POST URI Handlers
 
         static httpd_uri_t s_internal_webserver_uri_get = {
-                                                    .uri = "/",
-                                                    .method = HTTP_GET,
-                                                    .handler = s_internal_webserver_handler_get,
-                                                    .user_ctx = NULL
-                                                    };
+                                                            .uri = "/",
+                                                            .method = HTTP_GET,
+                                                            .handler = s_internal_webserver_handler_get,
+                                                            .user_ctx = NULL
+                                                            };
+
         static httpd_uri_t s_internal_webserver_uri_post = {
                                                     .uri = "/",
                                                     .method = HTTP_POST,
@@ -81,9 +83,30 @@ static httpd_handle_t s_internal_webserver_start(void)
 
 static esp_err_t s_internal_webserver_handler_get(httpd_req_t* req)
 {
-    //Webserver GET Request Handler
+    //Webserver GET Request Handler For HTML Page
 
-    httpd_resp_send(req, "HELLO ANKIT", strlen("HELLO ANKIT"));
+    char buffer[64];
+    uint8_t chunk_size = 0;
+
+    //httpd_resp_send(req, "hello", 5);
+
+    FILE* html_handle = INTERNAL_SPIFFS_FileOpen("/media/blank.html");
+    while(INTERNAL_SPIFFS_FileGetNextByte(html_handle, &buffer[chunk_size++]))
+    {
+        if(chunk_size == 64)
+        {
+            //Chunk Full. Send It
+            //printf("chunk\n");
+            httpd_resp_send_chunk(req, buffer, chunk_size);
+            chunk_size = 0;
+        }        
+    }
+
+    //Data Finished
+    httpd_resp_send_chunk(req, buffer, chunk_size);
+    httpd_resp_send_chunk(req, buffer, 0);
+
+    INTERNAL_SPIFFS_FileClose(html_handle);
     return ESP_OK;
 }
 

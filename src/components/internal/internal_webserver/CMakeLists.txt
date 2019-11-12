@@ -7,6 +7,7 @@ idf_component_register(SRCS
                         PRIV_REQUIRES
                             main
                             internal_mdns
+                            internal_spiffs
                             esp_http_server
                             global
                         ) 
