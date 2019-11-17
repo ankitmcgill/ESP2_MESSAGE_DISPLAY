@@ -13,6 +13,7 @@ idf_component_register(SRCS
                             external_lcd
                             internal_spiffs
                             external_button
+                            internal_time
                             ESP32_UTIL
                         ) 
 

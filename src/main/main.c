@@ -10,6 +10,7 @@
 #include "internal_flash.h"
 #include "internal_spiffs.h"
 #include "internal_wifi.h"
+#include "internal_time.h"
 #include "internal_webserver.h"
 #include "ESP32_UTIL.h"
 #include "project_info.h"
@@ -50,6 +51,9 @@ void app_main(void)
     EXTERNAL_LCD_PutStringCenteredInLine("bhatnagar", 2);
     EXTERNAL_LCD_PutStringLeftInLine("ankit", 3);
     EXTERNAL_LCD_PutStringRightInLine("bhatnagar", 4);
+
+    vTaskDelay(5000 / portTICK_PERIOD_MS);
+    INTERNAL_TIME_Init();
 }
 
 static void s_print_project_info(void)

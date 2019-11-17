@@ -14,6 +14,7 @@ set(EXTRA_COMPONENT_DIRS
                     "./components/internal/internal_mdns"
                     "./components/internal/internal_webserver"
                     "./components/internal/internal_spiffs"
+                    "./components/internal/internal_time"
                     "./components/util/ESP32_UTIL"
                     )
 
