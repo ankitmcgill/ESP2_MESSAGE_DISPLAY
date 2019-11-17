@@ -11,6 +11,7 @@
 #include "esp_event.h"
 #include "esp_log.h"
 #include "esp_http_server.h"
+#include "sys/param.h"
 
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
@@ -67,7 +68,7 @@ static httpd_handle_t s_internal_webserver_start(void)
                                                             };
 
         static httpd_uri_t s_internal_webserver_uri_post = {
-                                                    .uri = "/",
+                                                    .uri = "/?",
                                                     .method = HTTP_POST,
                                                     .handler = s_internal_webserver_handler_post,
                                                     .user_ctx = NULL
@@ -88,15 +89,12 @@ static esp_err_t s_internal_webserver_handler_get(httpd_req_t* req)
     char buffer[64];
     uint8_t chunk_size = 0;
 
-    //httpd_resp_send(req, "hello", 5);
-
     FILE* html_handle = INTERNAL_SPIFFS_FileOpen("/media/blank.html");
     while(INTERNAL_SPIFFS_FileGetNextByte(html_handle, &buffer[chunk_size++]))
     {
         if(chunk_size == 64)
         {
             //Chunk Full. Send It
-            //printf("chunk\n");
             httpd_resp_send_chunk(req, buffer, chunk_size);
             chunk_size = 0;
         }        
@@ -113,6 +111,27 @@ static esp_err_t s_internal_webserver_handler_get(httpd_req_t* req)
 static esp_err_t s_internal_webserver_handler_post(httpd_req_t* req)
 {
     //Webserver Post Request Handler
+
+    int ret;
+    char content[250] = {0};
+
+    //Truncate If Content Length Larger Than Buffer
+    size_t recv_size = MIN(req->content_len, sizeof(content) - 1);
+
+    ret = httpd_req_recv(req, content, recv_size);
+    if(ret < 0)
+    {
+        if(ret == HTTPD_SOCK_ERR_TIMEOUT)
+        {
+            //Send Http Request Timeout Error Code (408)
+            httpd_resp_send_408(req);
+        }
+
+        return ESP_FAIL;
+    }
+
+    ets_printf("post data received ...\n");
+    ets_printf("%s\n", content);
 
     return ESP_OK;
 }
